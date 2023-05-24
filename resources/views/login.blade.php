@@ -1,14 +1,8 @@
 @extends ('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="text-center py-3">
-        <h3>Join Us!</h3> 
-        <p>
-            Create a new account to check out our new movies every day. Already have an account? <a href="/login">Login Here</a>
-        </p>
-    </div>
-    <form>
+
+<form>
   <!-- Email input -->
   <div class="form-outline mb-4">
       <label class="form-label" for="form2Example1">Email address</label>
@@ -40,5 +34,4 @@
   <!-- Submit button -->
   <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
 </form>
-</div>
 @endsection
